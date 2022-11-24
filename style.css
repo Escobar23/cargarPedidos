@@ -1,0 +1,99 @@
+body{
+    height: 100vh;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    background-color: #263270;
+
+}
+
+h2{
+    color: #fff;
+
+}
+
+ button, input {
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+ }
+
+input{
+    font-size: 1.5rem;
+    text-align: center;
+    height: 25px;
+    padding: 5px 5px 10px;
+    border: none;
+    border-bottom: 1px solid;
+    
+}
+
+button{
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    padding: 15px 20px;
+    margin-left: 15px;
+    background-color: #ff1e42;
+    border-radius: 5px;
+
+}
+
+button:hover{
+    background-color: #c3112d;
+
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.datos-pedidos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.confirmaciones{
+    background-color: #fff;
+    color: #1e2432;
+    width: 50%;
+    border-radius: 20px;
+    padding: 12px;
+    min-height: 180px;
+    margin: 0 auto;
+
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+li{
+    margin: 12px;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+h3{
+    font-size: 2em;
+    
+}
